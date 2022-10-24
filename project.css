@@ -1,3 +1,72 @@
 *{
+    margin: 0;
+    padding: 0;
     font-family: 'Actor' !important;
+}
+body{
+    /* background-color: rgb(0, 0, 0); */
+}
+
+.content3{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.content3 .contentLeft{
+    width:30%;
+    padding: 2vh;
+}
+.content3 .contentLeft img{
+    width: 100%;
+    border-radius: 40%;
+    box-shadow: 4px 10px 10px rgba(0, 0, 0, 0.916);
+}
+.content3 .contentRight{
+    width:30%;
+    padding: 2vh;
+}
+.content3 .contentRight img{
+    width: 100%;
+    border-radius: 40%;
+    box-shadow: 4px 10px 10px rgba(0, 0, 0, 0.916);
+    transition-duration: 0.3s;
+}
+.content3 .contentMiddel{
+    width: 70%;
+    text-align: center;
+    margin-right: 8vh;
+    margin-left: 8vh;
+}
+.content3 .contentMiddel p{
+    font-weight: bold;
+    text-align: justify;
+    text-align: center;
+    font-size: 20px;
+    transition-duration: 0.3s;
+    cursor: default;
+
+
+}
+.plane{
+    display: flex;
+    justify-content: center;
+}
+.plane img{
+    width: 26%;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.plane img:hover{
+    width: 30%;
+    transition-duration: 0.3s;
+}
+.content3 .contentMiddel p:hover{
+    color: rgba(165, 42, 42, 0.804);
+
+}
+.content3 .contentRight img:hover{
+    width: 110%;
+    margin-right: 35vh;
 }
