@@ -1,13 +1,44 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Changa', sans-serif !important;
+    /* font-family: 'Changa', sans-serif !important; */
+    font-family: 'Josefin Sans', sans-serif;
 }
 body{
-    background: #1a1b20 url(images/clouds.jpg);
+    background: #1a1b20 url(images/clouds\ light.png) fixed;
     background-size: cover;
 }
+.backkk{
+    background-color: rgba(255, 255, 255, 0.349);
+}
+.backkkk{
+    background-color: rgba(255, 255, 255, 0.685);
+}
 
+.widthhh{
+    width: 33%;
+}
+.colorr{
+    /* color: rgb( 0, 131, 168); */
+    color: wheat;
+}
+.iconnn{
+    transition-duration: 0.2s;
+    color: white;
+    cursor: pointer;
+
+}
+.iconnn:hover{
+    color: blueviolet !important;
+
+}
+.linkss{
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.linkss:hover{
+    color: rgb(26, 54, 235) !important;
+}
 
 .content3{
     display: flex;
@@ -46,34 +77,55 @@ body{
     transition-duration: 0.3s;
 }
 .content3 .contentMiddel p{
-    font-weight: bold;
+    font-weight: bolder;
     text-align: justify;
     text-align: center;
     font-size: 20px;
     transition-duration: 0.3s;
     cursor: default;
     width: 100%;
-    color: white;
-    text-shadow: 0px 2px 3px black;
-
-
+    color: black;
+    padding: 5px;
+    text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.881);
+    position: relative;
 }
+.marr{
+    /* margin-top: 20vh; */
+}
+/* .content3 .contentMiddel p::after{
+    position: absolute;
+    left: 220px;
+    bottom: 0px;
+    content: " ";
+    background-color: rgba(37, 37, 37, 0.877);
+    height: 5px;
+    width: 35%;
+    transition-duration: 0.5s;
+}
+.content3 .contentMiddel p:hover::after{
+    left: 80px;
+    width: 75.7%;
+    background-color: rgba(15, 18, 180, 0.863);
+} */
+
 .plane{
     display: flex;
     justify-content: center;
+    margin-bottom: 10vh;
 }
 .plane img{
-    width: 15%;
-    transition-duration: 0.3s;
+    width: 13%;
+    transition-duration: 0.5s;
     cursor: pointer;
 }
 .plane img:hover{
-    width: 20%;
+    width: 16%;
+    rotate: 360deg;
     transition-duration: 0.3s;
 }
 .content3 .contentMiddel p:hover{
-    color: rgba(255, 68, 0, 0.87);
-    text-shadow: 0px 0px 3px black;
+    color: rgba(31, 5, 105, 0.87);
+    text-shadow: 0px 0px 3px white;
     font-weight: bolder;
     /* color: rgba(165, 42, 42, 0.804); */
 }
@@ -91,3 +143,11 @@ body{
     box-shadow: 0px 10px 10px white;
     border-radius: 30%;
 }
+
+/* @media screen and(max-width: 700px) {
+
+    .content3 .contentMiddel p::after{
+        display: none !important;
+        position: relative;
+}
+} */
