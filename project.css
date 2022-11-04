@@ -620,6 +620,9 @@ body {
     box-shadow: 4px 10px 30px rgba(0, 0, 0, 0.916);
     transition-duration: 0.3s;
   }
+  .s3 .w1:hover {
+    box-shadow: 0px 10px 30px white;
+  }
   .s3 .w2 {
     width: 31%;
     height: 60vh;
@@ -628,6 +631,9 @@ body {
     box-shadow: 4px 10px 30px rgba(0, 0, 0, 0.916);
     transition-duration: 0.3s;
   }
+  .s3 .w2:hover {
+    box-shadow: 0px 10px 30px white;
+  }
   .s3 .w3 {
     width: 31%;
     height: 60vh;
@@ -635,6 +641,9 @@ body {
     border-radius: 50px;
     box-shadow: 4px 10px 30px rgba(0, 0, 0, 0.916);
     transition-duration: 0.3s;
+  }
+  .s3 .w3:hover {
+    box-shadow: 0px 10px 30px white;
   }
   .s3 .w1 .title {
     font-size: xx-large;
