@@ -396,7 +396,7 @@ body {
   width: 100%;
   border-radius: 50px 50px 0px 0px;
   height: 30vh;
-  margin-bottom: 3vh;
+  margin-bottom: 1.5vh;
   border-bottom-color: black;
   border-bottom-width: 3px;
   border-bottom-style: solid;
@@ -410,40 +410,46 @@ body {
     margin-top: 3vh;
     margin-bottom: 3vh;
     width: 100%;
-    height: 75vh;
+    height: fit-content;
   }
   .s3 .w2 {
     margin-top: 3vh;
     margin-bottom: 3vh;
     width: 100%;
-    height: 75vh;
+    height: fit-content;
   }
   .s3 .w3 {
     margin-top: 3vh;
     margin-bottom: 3vh;
     width: 100%;
-    height: 75vh;
+    height: fit-content;
   }
   .s3 img {
     margin-bottom: 2vh;
   }
   .s3 .w1 .title {
     font-size: 200%;
+    
   }
   .s3 .w2 .title {
     font-size: 200%;
+    
   }
   .s3 .w3 .title {
     font-size: 200%;
+    
   }
   .s3 .w1 .text {
     font-size: 120%;
+    margin-bottom: 5vh;
   }
   .s3 .w2 .text {
     font-size: 120%;
+    margin-bottom: 5vh;
   }
   .s3 .w3 .text {
     font-size: 120%;
+    margin-bottom: 5vh;
   }
   .s3 .w1:hover {
     width: 100%;
